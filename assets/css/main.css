@@ -1,0 +1,50 @@
+.sdbar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: gray; 
+    overflow-x: hidden; 
+    padding-top: 50px; 
+    transition: 0.7s; 
+  }
+  
+  .sdbar a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: pink;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .sdbar a:hover {
+    color: pink;
+  }
+  
+  .sdbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .7s;
+    padding: 20px;
+  }
+  
+  @media screen and (max-height: 400px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 20px;}
+  }
+ button{
+     width: 100px;
+     height: 50px;
+     border-radius: 6px;
+     border: none;
+     background: gray;
+color: pink;}
